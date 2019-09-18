@@ -1,0 +1,1 @@
+/home/max/Dokumente/rust/some-algos-in-rust/target/debug/some-algos: /home/max/Dokumente/rust/some-algos-in-rust/src/main.rs /home/max/Dokumente/rust/some-algos-in-rust/src/sort/mod.rs /home/max/Dokumente/rust/some-algos-in-rust/src/sort/quick.rs
