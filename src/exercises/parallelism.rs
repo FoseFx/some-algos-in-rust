@@ -55,5 +55,4 @@ pub fn do_calc(list: &Vec<isize>) -> isize {
 
 #[cfg(test)]
 mod test {
-    use super::*;
 }
