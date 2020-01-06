@@ -1,0 +1,19 @@
+branches:
+    only: 
+      - master
+language: rust
+rust: stable
+cache: cargo
+addons:
+    apt:
+      packages:
+        - libssl-dev
+        - pkg-config
+        - cmake
+        - zlib1g-dev
+script:
+    - cargo install cargo-tarpaulin
+	- cargo build
+    - cargo tarpaulin
+after_success:
+    - bash <(curl -s https://codecov.io/bash)
