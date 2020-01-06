@@ -12,5 +12,7 @@ fn main() {
     // println!("{}", problems::simplify_path::simplify_path(&"/Users/Joma/Documents/..//Desktop/./..".to_string()));
     // println!("{}", problems::excel_columns::column_name(100000));
     // println!("{:?}", problems::subarray_sum::subarray_sum(&vec![1,2,3,4,5], 7));
-    println!("{}", graphs::bfs::are_connected(&graphs::bfs::some_graph(), &0, &4));
+    // println!("{}", graphs::bfs::are_connected(&graphs::bfs::some_graph(), &0, &4));
+
+    println!("{:?}", graphs::bfs::shortest_path(&graphs::bfs::some_graph(), &5, &1))
 }
